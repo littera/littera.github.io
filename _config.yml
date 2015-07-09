@@ -2,7 +2,7 @@
 title: Littera
 email: mail@getlittera.com
 description: > # this means to ignore newlines until "baseurl:"
-  Littera is a CMS based on Laravel 5.
+  Littera is a CMS based on Laravel 5.1
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://getlittera.com" # the base hostname & protocol for your site
 twitter_username: litteraphp

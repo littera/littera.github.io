@@ -13,11 +13,11 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
+  color: #333333;
 }
 
 a {
-  color: #1e6bb8;
+  color: #337ab7;
   text-decoration: none;
 
   &:hover {
@@ -72,8 +72,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
+  background-color: #337ab7;
+  background-image: linear-gradient(120deg, #286090, #337ab7);
 
   @include large {
     padding: 5rem 6rem;
@@ -159,7 +159,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957;
+    color: #333333;
   }
 
   p {
@@ -170,8 +170,8 @@ a {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
-    color: #383e41;
-    background-color: #f3f6fa;
+    color: #c7254e;
+    background-color: #f9f2f4;
     border-radius: 0.3rem;
   }
 
@@ -180,17 +180,17 @@ a {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: #567482;
+    color: #333;
     word-wrap: normal;
-    background-color: #f3f6fa;
-    border: solid 1px #dce6f0;
+    background-color: #f5f5f5;
+    border: solid 1px #ccc;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: #567482;
+      color: inherit;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -244,7 +244,7 @@ a {
     padding: 0 1rem;
     margin-left: 0;
     color: #819198;
-    border-left: 0.3rem solid #dce6f0;
+    border-left: 0.3rem solid #eee;
 
     > :first-child {
       margin-top: 0;
@@ -270,7 +270,7 @@ a {
     th,
     td {
       padding: 0.5rem 1rem;
-      border: 1px solid #e9ebec;
+      border: 1px solid #ddd;
     }
   }
 
@@ -294,7 +294,7 @@ a {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: #eff0f1;
+    background-color: #eee;
     border: 0;
   }
 }
@@ -302,7 +302,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1;
+  border-top: solid 1px #eee;
 
   @include large {
     font-size: 1rem;
@@ -323,5 +323,5 @@ a {
 }
 
 .site-footer-credits {
-  color: #819198;
+  color: #777;
 }

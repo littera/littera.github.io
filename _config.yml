@@ -10,3 +10,6 @@ github_username:  littera
 
 # Build settings
 markdown: kramdown
+
+sass:
+    style: :compressed

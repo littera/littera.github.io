@@ -4,7 +4,21 @@ layout: default
 
 <div>
 
-  <h3>Installation</h3>
+  <h2>Installation</h2>
+
+  <h3>Server Requirements</h3>
+
+  <ul>
+    <li>PHP >= 5.5.9</li>
+    <li>OpenSSL PHP Extension</li>
+    <li>PDO PHP Extension</li>
+    <li>Mbstring PHP Extension</li>
+    <li>Tokenizer PHP Extension</li>
+  </ul>
+
+  <h3>Installing Littera</h3>
+
+  <p>Via Composer Create-Project</p>
 
   <pre>
 $ composer create-project littera/littera your-project-name --prefer-dist
@@ -13,6 +27,7 @@ $ npm install
 $ bower install
 $ gulp</pre>
 
+{% comment %}
   <h3>Posts</h3>
 
   {% for post in site.posts %}
@@ -21,5 +36,6 @@ $ gulp</pre>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h4>
   {% endfor %}
+{% endcomment %}
 
 </div>
